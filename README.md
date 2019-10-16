@@ -21,3 +21,13 @@ Notes for understanding and configuring Babel
 - Babel plugins: packages for handling transpiling
 
 - Babel presets: collection of plugins
+
+## Babel 7 concepts
+
+- `@babel/preset-env`: preset for transpiling syntaxes and injecting polyfill
+
+- `@babel/plugin-transform-runtime`: plugin for saving codesize and injecting polyfill in other than in the global scope
+
+- `@babel/runtime`: helpers and `regenerator-runtime` for `@babel/plugin-transform-runtime`
+
+- `@babel/runtime-corejs3`: `core-js@3` and `regenerator-runtime` for `@babel/plugin-transform-runtime`
