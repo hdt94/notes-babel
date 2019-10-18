@@ -161,7 +161,7 @@ module.exports = { presets, plugins };
 Syntax is transpiled and polyfill is injected based on `core-js@2`
 
 ```js
-const presets = [['@babel/preset-env', { useBuiltIns: 'usage', { corejs: 2 } }]];
+const presets = [['@babel/preset-env', { useBuiltIns: 'usage' }]];
 
 module.exports = { presets };
 ```
